@@ -93,15 +93,32 @@ button_anim_duration = 0.3
 
 
 # Animation properties
+
+# Speed of animations (e.g., hover effects or transitions) in seconds.
+# A lower value means faster animations.
 animation_speed = 0.2  # seconds per animation
+
+# Additional radius (in pixels) added to the button when hovered, 
+# creating a subtle hover effect like a glow or scale-up.
 hover_radius = 5  # hover effect size
 
 # Screen setup
+
+# Creates the main game window with specified width and height.
+# The pygame.SCALED flag automatically scales the game to fit different screen resolutions smoothly.
 screen = pygame.display.set_mode((width, height), pygame.SCALED)
+
+# Sets the title of the game window
 pygame.display.set_caption('AI Tic Tac Toe')
+
+# Fills the entire screen with the background color defined by BG_COLOR
 screen.fill(BG_COLOR)
 
 # Game board
+
+# Initializes a 3x3 NumPy array filled with zeros.
+# This represents the Tic Tac Toe board:
+#   0 = empty, 1 = player X, 2 = player O
 board = np.zeros((board_rows, board_cols))
 
 # Fonts
