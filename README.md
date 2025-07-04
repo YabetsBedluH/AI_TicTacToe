@@ -31,7 +31,7 @@ A simple 2-player Tic Tac Toe game with an unbeatable AI opponent built using Py
 <li>2. The AI responds immediately.</li>
 <li>3. Game ends when someone wins or the board is full.</li>
 <li>. Press `R` to restart the game.</li>
-
+<li>. Press the restart button to restart the game.</li>
 
 <h3> Installation Requirements:</h3>
 <li>- Python 3.x</li>
